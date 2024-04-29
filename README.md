@@ -1,35 +1,13 @@
-# vue3-posts
+# vue3-posts (Vue3 게시판)
 
 This template should help get you started developing with Vue 3 in Vite.
 
-## Recommended IDE Setup
+* setup : npm install
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+* db.json 실행 : npx json-server --watch db.json --port 5000 (꼭 5000포트로 설정할 것)
 
-## Customize configuration
+* 홈페이지 실행 : npm run dev
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+* Compile and Minify for Production : npm run build
 
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+* Lint with [ESLint](https://eslint.org/) : npm run lint
