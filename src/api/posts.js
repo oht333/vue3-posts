@@ -13,7 +13,7 @@ export function getPostById(id) {
   // return posts.find(item => item.id === numberId);
   //  return posts.get(`/${id}`)
   // console.log(typeof id) // typeof id가 number로 되어있으므로 id 뒤에 ''를  붙여서 문자열로 만들어야 작동이 됨
-  return posts.get(id + '')
+  return posts.get(id + '') // Number인 id 값 뒤에 ''(문자열)을 더해주면, 숫자가 문자열로 자동 변환된다.
 }
 
 //게시글 생성
