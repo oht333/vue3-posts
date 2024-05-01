@@ -22,9 +22,12 @@ export function createPost(data) {
   return posts.post('/', data)
 }
 //게시글 수정
+// export function updatePost(id, data) {
+//   return posts.put(`/${id}`, data)      //HTTP PUT : 전체 데이터를 수정할 때 사용하는 용도 (일부를 수정할 때에는 PATCH를 사용함)
 export function updatePost(id, data) {
-  return posts.put(`/${id}`, data)
+  return posts.patch(`/${id}`, data)
 }
+
 //게시글 삭제
 export function deletePost(id) {
   return posts.delete(`/${id}`)
